@@ -15,6 +15,9 @@
     document.getElementById('score-counter-2').innerText = newScore;
   }
 
-
+function reset(){
+    document.getElementById('score-counter').innerText = 0;
+    document.getElementById('score-counter-2').innerText = 0;
+}
 
 
