@@ -9,6 +9,9 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
 }
 
 .container{
@@ -22,8 +25,9 @@ body{
     justify-content: center;
     align-items: center;
     width: 300px;
-    border: 2px solid black;
     padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
 }
 
 .container .team .score-view{
@@ -32,7 +36,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 100px;
-    background-color: teal;
+    background-color: #12355b;
     border-radius: 50%;
 }
 
@@ -55,11 +59,25 @@ body{
 }
 
 .container .team .score-box .score{
-    background-color: teal;
+    background-color: #12355b;
     padding: 10px;
     color: white;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#reset{
+    background-color: red;
+    height: fit-content;
+    width: 100px;
+    padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 600;
     cursor: pointer;
 }
