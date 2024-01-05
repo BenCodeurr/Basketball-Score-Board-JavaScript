@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basket Ball Score Board</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="team">
+        <div class="score-view score-view-1">
+          <span id="score-counter">0</span>
+        </div>
+        <div class="title">
+          <h4>Zambia</h4>
+        </div>
+        <div class="score-box">
+          <div class="score" onclick="updateScore(1)">+ 01</div>
+          <div class="score" onclick="updateScore(2)">+ 02</div>
+          <div class="score" onclick="updateScore(3)">+ 03</div>
+        </div>
+      </div>
+
+      <div class="team">
+        <div class="score-view">
+          <span id="score-counter-2">0</span>
+        </div>
+        <div class="title">
+          <h4>Democratic Republic of Congo</h4>
+        </div>
+        <div class="score-box">
+          <div class="score" onclick="updateScoreSecond(1)">+ 01</div>
+          <div class="score" onclick="updateScoreSecond(2)">+ 02</div>
+          <div class="score" onclick="updateScoreSecond(3)">+ 03</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
